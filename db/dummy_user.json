@@ -1,0 +1,27 @@
+{
+    "name": "Rifky Syahreza",
+    "email": "rifkys@example.com",
+    "password": "password123",
+    "role": "customer"
+}
+
+// Organizer user
+{
+  "name": "Bob Smith",
+  "email": "bob.smith@example.com",
+  "password": "anotherSecurePass456",
+  "role": "organizer",
+  "photoProfileUrl": "https://example.com/photos/bobsmith.jpg",
+  "website": "https://bobsmithevents.com",
+  "phoneNumber": "555-1234",
+  "address": "456 Event Lane, Cityville"
+}
+
+// User with custom profile
+{
+  "name": "Charlie Brown",
+  "email": "charlie.brown@example.com",
+  "password": "charliePass789",
+  "role": "customer",
+  "photoProfileUrl": "https://example.com/photos/charliebrown.jpg"
+}

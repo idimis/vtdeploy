@@ -1,0 +1,54 @@
+INSERT INTO vibetribe.event (
+    organizer_id, image_url, title, slug, description, date_time_start, date_time_end, location, location_details, category, fee, available_seats
+) VALUES
+-- Music Events
+(1, 'https://example.com/image1.jpg', 'Jakarta Jazz Night', 'jakarta-jazz-night', 'An evening of smooth jazz in the heart of Jakarta.', '2025-12-15 19:00:00+07', '2025-12-15 22:00:00+07', 'Jakarta', 'Jakarta Convention Center', 'Music', 150000.00, 200),
+(2, 'https://example.com/image2.jpg', 'Bali Beach Music Fest', 'bali-beach-music-fest', 'Enjoy live music performances on the beautiful beaches of Bali.', '2025-12-20 16:00:00+08', '2025-12-20 23:00:00+08', 'Bali', 'Kuta Beach', 'Music', 250000.00, 500),
+(1, 'https://example.com/image3.jpg', 'Surabaya Rock Concert', 'surabaya-rock-concert', 'Rock out with top bands in Surabaya.', '2025-12-18 18:00:00+07', '2025-12-18 23:00:00+07', 'Surabaya', 'Surabaya Stadium', 'Music', 200000.00, 300),
+(2, 'https://example.com/image4.jpg', 'Yogyakarta Classical Evening', 'yogyakarta-classical-evening', 'A night of classical music in Yogyakarta.', '2025-12-22 19:00:00+07', '2025-12-22 21:00:00+07', 'Yogyakarta', 'Yogyakarta Concert Hall', 'Music', 100000.00, 150),
+(1, 'https://example.com/image5.jpg', 'Bandung Indie Fest', 'bandung-indie-fest', 'Discover new indie bands in Bandung.', '2025-12-25 17:00:00+07', '2025-12-25 22:00:00+07', 'Bandung', 'Bandung Creative Hub', 'Music', 0.00, 400),
+(2, 'https://example.com/image6.jpg', 'Jakarta Jazz Festival 2023', 'jakarta-jazz-festival-2023', 'A celebration of jazz music featuring local and international artists.', '2023-11-10 19:00:00+07', '2023-11-10 22:00:00+07', 'Jakarta', 'Jakarta Convention Center', 'Music', 200000.00, 300),
+(1, 'https://example.com/image7.jpg', 'Bali Acoustic Night', 'bali-acoustic-night', 'An intimate acoustic night with local musicians.', '2023-10-15 18:00:00+08', '2023-10-15 21:00:00+08', 'Bali', 'Ubud Art Market', 'Music', 100000.00, 150),
+
+-- Nightlife Events
+(2, 'https://example.com/image8.jpg', 'Jakarta Nightlife Extravaganza', 'jakarta-nightlife-extravaganza', 'Experience the best of Jakarta nightlife.', '2025-12-14 22:00:00+07', '2025-12-15 03:00:00+07', 'Jakarta', 'Jakarta Nightclub', 'Nightlife', 200000.00, 250),
+(1, 'https://example.com/image9.jpg', 'Bali Full Moon Party', 'bali-full-moon-party', 'Dance under the full moon in Bali.', '2025-12-19 21:00:00+08', '2025-12-20 04:00:00+08', 'Bali', 'Seminyak Beach', 'Nightlife', 300000.00, 500),
+(2, 'https://example.com/image10.jpg', 'Surabaya Night Crawl', 'surabaya-night-crawl', 'Explore Surabaya vibrant nightlife.', '2025-12-17 20:00:00+07', '2025-12-18 02:00:00+07', 'Surabaya', 'Various Locations', 'Nightlife', 150000.00, 200),
+(1, 'https://example.com/image11.jpg', 'Yogyakarta Night Beats', 'yogyakarta-night-beats', 'Feel the rhythm of Yogyakarta at night.', '2025-12-21 22:00:00+07', '2025-12-22 03:00:00+07', 'Yogyakarta', 'Yogyakarta Club', 'Nightlife', 0.00, 300),
+(2, 'https://example.com/image12.jpg', 'Bandung After Dark', 'bandung-after-dark', 'Join the after-dark party in Bandung.', '2025-12-24 23:00:00+07', '2025-12-25 05:00:00+07', 'Bandung', 'Bandung Nightclub', 'Nightlife', 250000.00, 350),
+(1, 'https://example.com/image13.jpg', 'Jakarta Night Festival 2023', 'jakarta-night-festival-2023', 'A vibrant festival showcasing Jakarta nightlife.', '2023-11-05 20:00:00+07', '2023-11-06 02:00:00+07', 'Jakarta', 'Jakarta City Center', 'Nightlife', 150000.00, 400),
+(2, 'https://example.com/image14.jpg', 'Bali Sunset Party', 'bali-sunset-party', 'Enjoy a sunset party with live DJ.', '2023-09-30 17:00:00+08', '2023-09-30 22:00:00+08', 'Bali', 'Canggu Beach', 'Nightlife', 100000.00, 200),
+INSERT INTO vibetribe.event (organizer_id, image_url, title, description, date_time_start, date_time_end, location, location_details, category, fee, available_seats, booked_seats, created_at, updated_at)
+VALUES
+(1, 'https://example.com/images/nightlife1.jpg', 'Jakarta Night Bash', 'Experience the vibrant nightlife of Jakarta with top DJs and premium service.', '2025-01-10 22:00:00', '2025-01-11 04:00:00', 'Jakarta', 'Club X Jakarta', 'Nightlife', 300000.00, 300, 0, '2024-11-25 07:09:58', '2024-11-25 07:09:58'),
+(1, 'https://example.com/images/nightlife2.jpg', 'Bali Beach Party', 'Unwind at the ultimate beach party with live DJs and fireworks on Bali’s picturesque coast.', '2025-02-15 19:00:00', '2025-02-16 02:00:00', 'Bali', 'Kuta Beach', 'Nightlife', 200000.00, 500, 0, '2024-11-25 07:09:58', '2024-11-25 07:09:58'),
+(1, 'https://example.com/images/nightlife3.jpg', 'Surabaya Rooftop Night', 'Join us for an exclusive night with cocktails and city views on Surabaya’s famous rooftop.', '2025-03-20 20:00:00', '2025-03-21 01:00:00', 'Surabaya', 'Sky Lounge Surabaya', 'Nightlife', 250000.00, 200, 0, '2024-11-25 07:09:58', '2024-11-25 07:09:58'),
+(1, 'https://example.com/images/nightlife4.jpg', 'Yogyakarta Night Market', 'Explore the night markets of Yogyakarta, featuring local crafts, food, and performances.', '2025-04-25 18:00:00', '2025-04-25 23:59:00', 'Yogyakarta', 'Malioboro Street', 'Nightlife', 50000.00, 400, 0, '2024-11-25 07:09:58', '2024-11-25 07:09:58'),
+(1, 'https://example.com/images/nightlife5.jpg', 'Medan Midnight Cinema', 'Outdoor midnight movie screening featuring classic and contemporary films.', '2025-05-30 23:00:00', '2025-05-31 02:00:00', 'Medan', 'Merdeka Park', 'Nightlife', 100000.00, 250, 0, '2024-11-25 07:09:58', '2024-11-25 07:09:58'),
+
+-- Performance & Arts Events
+(1, 'https://example.com/image15.jpg', 'Jakarta Art Exhibition', 'jakarta-art-exhibition', 'Explore contemporary art in Jakarta.', '2025-12-16 10:00:00+07', '2025-12-16 18:00:00+07', 'Jakarta', 'Jakarta Art Gallery', 'Performance & Arts', 50000.00, 100),
+(2, 'https://example.com/image16.jpg', 'Bali Dance Festival', 'bali-dance-festival', 'Experience traditional Balinese dance.', '2025-12-20 14:00:00+08', '2025-12-20 20:00:00+08', 'Bali', 'Ubud Palace', 'Performance & Arts', 75000.00, 150),
+(1, 'https://example.com/image17.jpg', 'Surabaya Theater Night', 'surabaya-theater-night', 'Enjoy a night of theater in Surabaya.', '2025-12-18 19:00:00+07', '2025-12-18 22:00:00+07', 'Surabaya', 'Surabaya Theater', 'Performance & Arts', 100000.00, 120),
+(2, 'https://example.com/image18.jpg', 'Yogyakarta Puppet Show', 'yogyakarta-puppet-show', 'Traditional puppet show in Yogyakarta.', '2025-12-22 17:00:00+07', '2025-12-22 19:00:00+07', 'Yogyakarta', 'Yogyakarta Cultural Center', 'Performance & Arts', 50000.00, 80),
+(1, 'https://example.com/image19.jpg', 'Bandung Art Fair', 'bandung-art-fair', 'Discover local art in Bandung.', '2025-12-25 09:00:00+07', '2025-12-25 17:00:00+07', 'Bandung', 'Bandung Art Space', 'Performance & Arts', 0.00, 200),
+(2, 'https://example.com/image20.jpg', 'Jakarta Cultural Festival 2023', 'jakarta-cultural-festival-2023', 'A showcase of Indonesia rich culture and arts.', '2023-10-10 10:00:00+07', '2023-10-10 18:00:00+07', 'Jakarta', 'Jakarta Cultural Center', 'Performance & Arts', 50000.00, 300),
+(1, 'https://example.com/image21.jpg', 'Bali Art Showcase', 'bali-art-showcase', 'An exhibition of local artists in Bali.', '2023-11-15 09:00:00+08', '2023-11-15 17:00:00+08', 'Bali', 'Bali Art Museum', 'Performance & Arts', 0.00, 100),
+
+-- Holiday Events
+(2, 'https://example.com/image22.jpg', 'Jakarta Christmas Market', 'jakarta-christmas-market', 'Enjoy festive shopping at Jakarta Christmas market.', '2025-12-15 10:00:00+07', '2025-12-15 22:00:00+07', 'Jakarta', 'Jakarta City Square', 'Holiday', 0.00, 500),
+(1, 'https://example.com/image23.jpg', 'Bali New Year Eve Party', 'bali-new-years-eve-party', 'Ring in the New Year in Bali.', '2025-12-31 20:00:00+08', '2026-01-01 02:00:00+08', 'Bali', 'Kuta Beach', 'Holiday', 300000.00, 600),
+(2, 'https://example.com/image24.jpg', 'Surabaya Holiday Parade', 'surabaya-holiday-parade', 'Join the festive holiday parade in Surabaya.', '2025-12-24 16:00:00+07', '2025-12-24 20:00:00+07', 'Surabaya', 'Main Street', 'Holiday', 0.00, 400),
+(1, 'https://example.com/image25.jpg', 'Yogyakarta New Year Celebration', 'yogyakarta-new-year-celebration', 'Celebrate the New Year in Yogyakarta.', '2025-12-31 18:00:00+07', '2026-01-01 01:00:00+07', 'Yogyakarta', 'Yogyakarta City Center', 'Holiday', 200000.00, 500),
+(2, 'https://example.com/image26.jpg', 'Bandung Christmas Lights', 'bandung-christmas-lights', 'Enjoy the beautiful Christmas lights in Bandung.', '2025-12-20 18:00:00+07', '2025-12-20 22:00:00+07', 'Bandung', 'Bandung Park', 'Holiday', 50000.00, 300),
+(1, 'https://example.com/image27.jpg', 'Jakarta Christmas Festival 2023', 'jakarta-christmas-festival-2023', 'A festive celebration of Christmas in Jakarta.', '2023-12-25 10:00:00+07', '2023-12-25 22:00:00+07', 'Jakarta', 'Jakarta City Square', 'Holiday', 0.00, 600),
+(2, 'https://example.com/image28.jpg', 'Bali New Year Celebration 2023', 'bali-new-year-celebration-2023', 'Celebrate the New Year with fireworks in Bali.', '2023-12-31 20:00:00+08', '2024-01-01 01:00:00+08', 'Bali', 'Bali Beach', 'Holiday', 250000.00, 500),
+
+-- Food & Drink Events
+(1, 'https://example.com/image29.jpg', 'Jakarta Food Festival', 'jakarta-food-festival', 'Taste the best of Jakarta culinary scene.', '2025-12-15 11:00:00+07', '2025-12-15 21:00:00+07', 'Jakarta', 'Jakarta Food Court', 'Food & Drink', 100000.00, 200),
+(2, 'https://example.com/image30.jpg', 'Bali Wine Tasting', 'bali-wine-tasting', 'Sample exquisite wines in Bali.', '2025-12-20 15:00:00+08', '2025-12-20 19:00:00+08', 'Bali', 'Ubud Winery', 'Food & Drink', 150000.00, 100),
+(1, 'https://example.com/image31.jpg', 'Surabaya Culinary Tour', 'surabaya-culinary-tour', 'Explore Surabaya best food spots.', '2025-12-18 10:00:00+07', '2025-12-18 18:00:00+07', 'Surabaya', 'Various Locations', 'Food & Drink', 200000.00, 50),
+(2, 'https://example.com/image32.jpg', 'Yogyakarta Coffee Festival', 'yogyakarta-coffee-festival', 'Celebrate coffee culture in Yogyakarta.', '2025-12-22 09:00:00+07', '2025-12-22 17:00:00+07', 'Yogyakarta', 'Yogyakarta Coffee House', 'Food & Drink', 50000.00, 150),
+(1, 'https://example.com/image33.jpg', 'Bandung Street Food Night', 'bandung-street-food-night', 'Enjoy a night of street food in Bandung.', '2025-12-25 18:00:00+07', '2025-12-25 23:00:00+07', 'Bandung', 'Bandung Street Market', 'Food & Drink', 0.00, 300),
+(2, 'https://example.com/image34.jpg', 'Jakarta Culinary Festival 2023', 'jakarta-culinary-festival-2023', 'A celebration of Jakarta diverse culinary offerings.', '2023-11-20 11:00:00+07', '2023-11-20 21:00:00+07', 'Jakarta', 'Jakarta Food Court', 'Food & Drink', 100000.00, 250),
+(1, 'https://example.com/image35.jpg', 'Bali Food Expo 2023', 'bali-food-expo-2023', 'Showcasing the best of Balinese cuisine.', '2023-10-05 10:00:00+08', '2023-10-05 18:00:00+08', 'Bali', 'Bali Convention Center', 'Food & Drink', 0.00, 300);

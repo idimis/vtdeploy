@@ -1,0 +1,46 @@
+{
+  "name": "vibe-tribe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "type": "module",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chart.js": "^4.4.7",
+    "framer-motion": "^11.14.1",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21",
+    "next": "^15.0.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.3.0",
+    "react-swipeable": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/jwt-decode": "^2.2.1",
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^20",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^15.0.2",
+    "postcss": "^8.4.24",
+    "prettier": "^3.1.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  }
+}
